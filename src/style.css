@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/src/photo-1643189446178-dc8dbc187dc1.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Poppins;
+  font-size: 18px;
+  color: white;
+}
+
+.container {
+  width:38%;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 2em;
+  margin-bottom: 1.2em;
+}
+
+#description {
+  margin-top: 0.7em;
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+form {
+  background-color: rgba(29, 26, 26, 0.6);
+  border-radius: 0.7em;
+  padding: 1em;
+}
+
+.form-group {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 1.1em;
+}
+
+.form-constrol {
+  width: 100%;
+}
+
+#name-label, #email-label, #age-label, .form-group p  {
+  margin-bottom: 0.5em;
+}
+
+#name, #email, #age, #dropdpwn, #most-like {
+  padding: 0.5em 0 0.5em 1em;
+}
+
+.input-radio, .input-checkbox {
+  margin-right: 0.7em;
+}
+
+#comments {
+  width: 100%;
+  resize: vertical;
+  color: black;
+  min-height: 80px;
+}
+
+.submit-button {
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 0.125em;
+  padding: 12px 0;
+  font-size: 18px;
+}
+
+:placeholder-shown {
+  font-family: Poppins;
+}
